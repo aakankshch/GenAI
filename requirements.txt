@@ -1,3 +1,10 @@
 langchain_core
 langchain_community
 streamlit
+#RAG
+ipykernel
+wikipedia
+faiss-cpu
+langchainhub
+langchain_openai
+python-dotenv
