@@ -22,8 +22,5 @@ output_parser=StrOutputParser()
 #Chain
 chain=input_prompt|llm|output_parser
 
-
-
-
 if input_text:
     st.write(chain.invoke({'name':input_text}))
